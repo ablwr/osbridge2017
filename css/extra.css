@@ -1,0 +1,18 @@
+.ashley {
+  background-color: rgb(61, 14, 21);
+}
+
+.andrew {
+  background-color: rgb(23, 43, 76);
+}
+
+.ashley_and_andrew {
+  background: rgb(34, 6, 38);
+}
+
+section {
+  border: 2px solid #FFFFFF !important;
+  margin: -2px !important;
+  padding-top: 40px !important;
+  padding-bottom: 40px !important;
+}
