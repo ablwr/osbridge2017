@@ -37,9 +37,11 @@
 		</section>
 		<section class="ashley_and_andrew">
 			<p>
-				archivists + open source!
+				hi!
 			</p>
 			<aside class="notes">
+				hello I am Ashley, I am an archivist and developer, I work at a library in New York, and I work on open source projects too.
+				Andrew is Andrew!
 			</aside>
 		</section>
 		<section class="ashley">
@@ -47,10 +49,12 @@
 				Why?
 			</p>
 			<aside class="notes">
-				- grant-based funding models
-				- financial need for free solutions
-				- reliance on existing open source tools, ffmpeg, mediainfo
-				- Dave is the best, Reto is good too
+				So, why? Why this connection between archivists and OSS? Y'know, I think this is for a variety of reasons.
+				- A lot of funding for archives, especially for technology-based projects, are based on the grants funding model.
+				- Archives are also very much underfunded in general, so there's a financial need for free solutions.
+				- There's a need for sustainable solutions, too. The LIS field continually gets burned by vendor lock-in problems, and closed-source software is in many ways fundamentally un-archiveable unless reverse-engineered, so it's cool if our tools are also self-preserving by at least being open.
+				- We already rely heavily on existing open source tools like ffmpeg, mediainfo to do our jobs. So we are already comfortable with this ecosystem even if we don't know anything about fostering our own or contributing back.
+				- We have advocates in the community. I mean, so much of my work is completely build on top of others (mostly Dave Rice). Reto Kromer... there are a lot of people in the community that also have come across this from a preservationist background and realized the value of open source.
 			</aside>
 		</section>
 		<section class="andrew">
@@ -122,47 +126,49 @@
 				Tools that evolved out of existing open source frameworks
 		  </h2>
 		  <aside class="notes">
-
+				OK, switching it up to go beyond one community and talking about projects that have emerged primarily, as I see it, a way to bridge the gap between powerful command-line open source software tools and archivists that can benefit from them (but don't realize it). So I'm going to talk about two projects, QCTools and MediaConch, that I've spent the past three years working on, and some of their spin-off projects.
 		  </aside>
 		</section>
 		<section class="ashley">
-		  <p>
-				QCTools
-		  </p>
+		  <img src="img/QCTools.jpg"/>
 		  <aside class="notes">
 				based on ffmpeg filters
 		  </aside>
 		</section>
 		<section class="ashley">
 		  <p>
-				AVAA
+				qcli and QCTParse
 		  </p>
 		  <aside class="notes">
-
+				qcli is QCTools but on the command line. Before this existed, some other badass archivists, Brendan Coates and Morgan Morel, built QCTParse. Tools built on top of tools! We have two more of those...
 		  </aside>
 		</section>
 		<section class="ashley">
-		  <p>
-				SignalServer
-		  </p>
+		  <img src="img/signalserver_md.png"/>
 		  <aside class="notes">
-				same
+				SignalServer is a web server that will scale up QCTools, which currently can only be run one at a time.
 		  </aside>
 		</section>
 		<section class="ashley">
-		  <p>
-				MediaConch
-		  </p>
+		  <img src="img/avaa.png"/>
 		  <aside class="notes">
-				based on mediainfo
+				What archivists are great at and love doing is documnetation! AVAA was a mediawiki and now a github pages site where people can contribute "weird" video artifacts, and describe them, and provide examples. It's like a glossery of esoteric bugs unique to video. This can work in conjunction with QCTools, where archivists find the errors, and they are able to look them up.
 		  </aside>
 		</section>
 		<section class="ashley">
+		  <img src="img/mediaconch.png"/>
+		  <aside class="notes">
+				Like QCTools fundamentally being based on FFmpeg, MediaConch started as being fundamentally based off of MediaInfo, which archivists LOVE. MediaInfo is for checking all files, very quickly, and works for files that are in transit, too. MediaConch seeks to take it a step further and go deeper in the file checking -- by incorporating MediaTrace, a project funded by MoMA to do bit-level file analysis and XML export, and, with funding from the European Commission, to validate files against their specifications.
+		  </aside>
+		</section>
+		<section class="ashley">
+			<img src="img/matroska.jpg"/>
+			<img src="img/ffmpeg.png"/>
 		  <p>
 				MKV/FFV1
 		  </p>
 		  <aside class="notes">
-				based out of preservation needs
+				Based out of preservation needs, MediaConch specifically works with three file formats. MKV, FFV1, and LPCM. LPCM is super easy, it's just raw audio, so it doesn't get a lot of attention from us. The other two, though, are formats that have not been standardized, but they are open, so they are ripe for ANALYSIS. Another thing archivists are good at.
 		  </aside>
 		</section>
 		<section class="andrew">
@@ -175,12 +181,20 @@
 				- contributing to ffmpeg core
 		  </aside>
 		</section>
-		<section class="ashley_and_andrew">
+		<section class="ashley">
 		  <p>
 				conclusion!
 		  </p>
 		  <aside class="notes">
 				conclusion with alignment of ethos between the two
+		  </aside>
+		</section>
+		<section class="ashley_and_andrew">
+		  <p>
+				thanks!
+		  </p>
+		  <aside class="notes">
+				ideally pictures of dave
 		  </aside>
 		</section>
 	</div>
